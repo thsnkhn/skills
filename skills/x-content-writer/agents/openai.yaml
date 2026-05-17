@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Content Writer"
+  short_description: "Algorithm-informed X post writing"
+  default_prompt: "Use $x-content-writer to draft Twitter/X posts from my topic, voice, and goal."
