@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Writer"
+  short_description: "Write natural LinkedIn posts in a direct builder voice"
+  default_prompt: "Use $linkedin-writer to turn these notes into a natural LinkedIn post."
