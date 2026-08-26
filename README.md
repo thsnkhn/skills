@@ -24,6 +24,7 @@ Install a specific skill:
 
 ```bash
 npx skills add thsnkhn/skills --skill linkedin-writer
+npx skills add thsnkhn/skills --skill write-like-thsnkhn
 npx skills add thsnkhn/skills --skill x-content-writer
 ```
 
@@ -34,6 +35,7 @@ Skills install into the current project by default. Add `--global` to make them 
 | Skill | Description |
 |---|---|
 | [`linkedin-writer`](skills/linkedin-writer) | Draft, rewrite, and critique natural LinkedIn posts in a bundled direct builder-operator voice grounded in real work and evidence. |
+| [`write-like-thsnkhn`](skills/write-like-thsnkhn) | Write everyday work messages, updates, feedback, requests, and agent prompts in Tahseen's direct operator voice. |
 | [`x-content-writer`](skills/x-content-writer) | Draft, revise, critique, and plan Twitter/X posts, replies, quotes, and threads using an algorithm-informed content playbook. |
 
 ## License

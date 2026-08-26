@@ -1,0 +1,6 @@
+interface:
+  display_name: "Write Like thsnkhn"
+  short_description: "Write in Tahseen’s direct operator voice"
+  default_prompt: "Use $write-like-thsnkhn to rewrite this message in my natural voice."
+policy:
+  allow_implicit_invocation: false
