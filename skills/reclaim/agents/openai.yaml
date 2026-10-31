@@ -1,0 +1,6 @@
+interface:
+  display_name: "Reclaim"
+  short_description: "Audit disk use and prevent repeated storage growth"
+  default_prompt: "Use $reclaim to audit local storage and report targeted cleanup and prevention options without changing anything."
+policy:
+  allow_implicit_invocation: false
