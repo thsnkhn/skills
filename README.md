@@ -34,10 +34,10 @@ Skills install into the current project by default. Add `--global` to make them 
 
 Run a manual, read-only audit of disk use and repeated storage growth. The report identifies targeted cleanup options, required data to keep, and prevention settings. It does not delete files or install automation.
 
-Install with the interactive CLI, then select `reclaim`:
+Install only `reclaim`:
 
 ```bash
-npx skills add thsnkhn/skills
+npx skills add thsnkhn/skills --skill reclaim
 ```
 
 Invoke with `$reclaim`. You can request a whole-machine audit or limit it to a project.

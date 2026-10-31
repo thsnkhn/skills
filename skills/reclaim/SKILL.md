@@ -30,9 +30,9 @@ Distinguish allocated disk space from logical file size. APFS clones, hard links
 
 Read the relevant reference for each area found:
 
-- [Developer storage](references/developer-storage.md): package stores, build caches, SDKs, test history, and runtime versions.
+- [Developer storage](references/developer-storage.md): package stores, build caches, SDKs, test history, temporary work, research artifacts, and runtime versions.
 - [Containers and registries](references/containers.md): local images, build cache, registry layers, and virtual disks.
-- [Applications and system data](references/system-storage.md): optional downloads, leftovers, installers, diagnostics, login items, and personal data.
+- [Applications and system data](references/system-storage.md): optional downloads, leftovers, installers, diagnostics, login items, operating-system temporary directories, and personal data.
 
 For each material candidate, establish:
 

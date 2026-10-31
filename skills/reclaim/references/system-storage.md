@@ -8,6 +8,14 @@ Useful installed inspection tools include `df`, bounded `du` scans, file metadat
 
 Separate installed applications and command-line tools from shared libraries, SDKs, runtimes, and private environments bundled with an app. A small launcher can own a large hidden installation with Python environments, Node packages, models, and source history.
 
+## Operating-system temporary directories
+
+For a whole-machine audit, inspect the current user's temporary directory and accessible temporary roots. Examples include `$TMPDIR`, `/tmp`, `/private/tmp`, user-owned areas under `/private/var/folders` on macOS, and `%TEMP%` on Windows. Discover the actual location; do not assume these examples all exist.
+
+Resolve aliases before measuring so `/tmp` and `/private/tmp` are not counted twice. Use shallow scans and respect ownership and permission boundaries. Look for large abandoned downloads, extracted archives, app exports, diagnostic bundles, and dated tool runs. Attribute candidates to their producer where possible.
+
+Temporary storage can contain active sockets, locks, working documents, or files still open by applications. Age alone does not establish that removal is safe. Report active or unknown ownership and recommend the application's supported cleanup path where available. Never propose emptying an entire system temporary root. Keep this inspection read-only.
+
 ## Application data
 
 Inspect application support, caches, containers, group containers, downloaded content, and private runtime directories. Identify ownership from bundle identifiers, application metadata, configuration, and directory structure.

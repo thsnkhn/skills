@@ -6,6 +6,18 @@ Discover project roots from the requested workspace and common development direc
 
 Common locations include `node_modules`, local and shared package stores, `.next`, custom framework output directories, `dist`, `build`, `.cache`, `.venv`, language caches, compiler output, test results, coverage, benchmark directories, and temporary reports. Inspect tool configuration for additional output paths; do not assume one default build folder contains everything.
 
+## Temporary work and research directories
+
+Within the requested roots, find directories named or configured as `tmp`, `temp`, `.tmp`, `scratch`, `research`, `experiments`, `benchmarks`, `artifacts`, and `context/tmp`. Include ignored and hidden paths. Use bounded, case-insensitive directory discovery rather than searching every file's contents. Names are discovery hints, not evidence that contents are disposable.
+
+Measure large children and inspect file types, dates, run identifiers, and producer references. Look for repeated research downloads, crawl results, exported datasets, screenshots, browser traces, generated previews, benchmark output, abandoned experiment environments, and copied repositories with their own dependencies. Check scripts and configuration for custom output locations.
+
+Separate reproducible intermediate output from source datasets, notebooks, research notes, final reports, citations, and unique experiment results. Check references from code, notebooks, and reports before proposing removal. An untracked file can be the only copy of useful work; an ignored folder can contain active data. Do not classify a research directory as cache based on its name or age.
+
+For apparent duplicates, distinguish exact copies from revisions. Compare bounded metadata or hashes only when useful, and do not read cloud-only files. Check for active writers or open files before recommending a temporary run directory for cleanup. If ownership or reuse is unclear, put it in the decision-needed group.
+
+Report the disposable subset, not the full parent folder. Suggest producer-specific retention for dated runs, a documented location for final research outputs, or cleanup of intermediate files after a completed job. Preserve the inputs and instructions needed to reproduce results. Do not create these policies during the audit.
+
 ## Package installations and stores
 
 Separate the active installation, downloaded file content, cached package trees, old versions, tool caches, and shared stores. Measure nested directories without adding them twice. Moving a store elsewhere can shrink a project folder without saving disk space.
