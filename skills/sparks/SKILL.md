@@ -11,7 +11,8 @@ Collect useful lessons from marketing, sales, design, engineering, operations, a
 
 - Review the work already in the conversation and workspace. Inspect relevant material the person can access when needed; do not search unrelated projects or private records broadly.
 - Ask: Would someone outside Hapy have this problem, and does our experience help answer it? Consider the idea a candidate only when both answers are yes. Prefer a clear lesson with a real problem, action, and outcome. Explain a useful decision or tradeoff when results are not yet known. Skip routine changes, generic advice, speculation, and ideas that lack enough context.
-- Do not invent numbers, outcomes, client approval, or causes. Mark an expected outcome as expected and a result that has not been measured as unmeasured.
+- Capture useful, verified numbers from the work: counts, percentages, time, costs, before-and-after measurements, and the scope of each result. Include enough context to explain what was measured and which action produced it. Preserve safe, non-identifying figures; generalize or omit figures that reveal confidential details.
+- Do not invent numbers, statistics, outcomes, client approval, or causes. Do not present a suggested search question as proven demand. Mark an expected outcome as expected and a result that has not been measured as unmeasured.
 - Offer an idea when it fits the current work; do not interrupt unrelated tasks or start background monitoring. If there is no useful spark, say so.
 
 ## Prepare a safe post
@@ -22,7 +23,7 @@ Write a short, specific title that names the reader’s problem and a concise po
 - **Reader’s question:** A plain-language question someone outside Hapy might ask. Treat it as a possible search, not a verified keyword.
 - **Problem:** What needed to change and why it mattered.
 - **Action:** What was tried, changed, or decided, including relevant tools or methods.
-- **Outcome:** What happened, with supported figures if safe; otherwise state what is still unknown.
+- **Outcome:** What happened, with verified figures and their context when safe. State what is still unknown or unmeasured.
 - **Lesson:** What another team could take from it.
 
 Keep examples factual and self-contained. Do not turn the post into a sales pitch, article brief, or claim of public permission. Ask for missing facts rather than guessing.
