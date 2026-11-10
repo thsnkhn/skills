@@ -46,6 +46,7 @@ Invoke with `$reclaim`. You can request a whole-machine audit or limit it to a p
 
 | Skill | Description |
 |---|---|
+| [`sparks`](skills/sparks) | Capture anonymized lessons from team work in the Hapy Co Sparks board after review. |
 | [`reclaim`](skills/reclaim) | Manually audit storage, dependencies, caches, containers, and application leftovers; report targeted cleanup and prevention options without changing anything. |
 | [`linkedin-writer`](skills/linkedin-writer) | Draft, rewrite, and critique natural LinkedIn posts in a bundled direct builder-operator voice grounded in real work and evidence. |
 | [`write-like-thsnkhn`](skills/write-like-thsnkhn) | Write everyday work messages, updates, feedback, requests, and agent prompts in Tahseen's direct operator voice. |
