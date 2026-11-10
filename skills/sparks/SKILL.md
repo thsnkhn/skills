@@ -10,7 +10,7 @@ Collect useful lessons from marketing, sales, design, engineering, operations, a
 ## Find a spark
 
 - Review the work already in the conversation and workspace. Inspect relevant material the person can access when needed; do not search unrelated projects or private records broadly.
-- Prefer a clear lesson with a real problem, action, and outcome. Explain a useful decision or tradeoff when results are not yet known. Skip routine changes, generic advice, speculation, and ideas that lack enough context.
+- Ask: Would someone outside Hapy have this problem, and does our experience help answer it? Consider the idea a candidate only when both answers are yes. Prefer a clear lesson with a real problem, action, and outcome. Explain a useful decision or tradeoff when results are not yet known. Skip routine changes, generic advice, speculation, and ideas that lack enough context.
 - Do not invent numbers, outcomes, client approval, or causes. Mark an expected outcome as expected and a result that has not been measured as unmeasured.
 - Offer an idea when it fits the current work; do not interrupt unrelated tasks or start background monitoring. If there is no useful spark, say so.
 
@@ -18,7 +18,8 @@ Collect useful lessons from marketing, sales, design, engineering, operations, a
 
 Remove client and customer names, project names, personal details, domains, URLs, internal IDs, credentials, unpublished business information, and details that could identify a client when combined. Do not include links to client work or raw attachments. Generalize sensitive figures and circumstances or omit them; if the lesson cannot be anonymized reliably, do not post it. Generic stack, platform, and tool names may stay when useful and not identifying.
 
-Write a short, specific title and a concise post with:
+Write a short, specific title that names the reader’s problem and a concise post with:
+- **Reader’s question:** A plain-language question someone outside Hapy might ask. Treat it as a possible search, not a verified keyword.
 - **Problem:** What needed to change and why it mattered.
 - **Action:** What was tried, changed, or decided, including relevant tools or methods.
 - **Outcome:** What happened, with supported figures if safe; otherwise state what is still unknown.
